@@ -1,0 +1,50 @@
+
+#yazi{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    color: gray;
+}
+.hakkimda-yazisi {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: auto;
+}
+#hakkimdabaslik{
+    text-align: center;
+}
+.resimler{
+    width: 100px;
+    height: auto;
+}
+.scrolling-text {
+    overflow: hidden;
+    font-size: 26px;
+}
+
+.scrolling-text p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrolling 8s linear infinite;
+    font-size: 26px;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.ayazi{
+    background-color: #343a40; 
+    color:cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+
+}
